@@ -27,6 +27,13 @@
   --vp-local-nav-bg-color: #fff;                      /* 页面内导航栏 */
   --vp-sidebar-bg-color: #f6f6f7;                     /* 侧边栏背景 */
   --vp-code-block-bg: rgba(250, 246, 246, 1);         /* 代码块背景 */
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, var(--vp-c-red-1) 30%, var(--vp-c-brand-2));
+  --vp-home-hero-tagline: var(--vp-c-text-2);
+  --vp-home-hero-text: var(--vp-c-text-1);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, var(--vp-c-brand-soft) 50%, var(--vp-c-brand-2) 50%);
+  --vp-home-hero-image-filter: blur(44px);
 }
 
 [data-theme="dark"] {

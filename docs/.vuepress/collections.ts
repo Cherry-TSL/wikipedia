@@ -38,29 +38,26 @@ const guideDoc = defineCollection({
   // 所以请确保  markdown 文件的 permalink 都以 `linkPrefix` 开头
   linkPrefix: '/guide',
   // 文档标题，它将用于在页面的面包屑导航中显示
-  title: '模组文档',
+  title: '文档',
   sidebar: [
-  {
-    text: '从这里开始解析',
-    collapsed: false,
-    icon: 'carbon:idea',
-    prefix: 'mods',
-    items: [
-      {
-        text: '美化',
-        prefix: 'beautify',
-        collapsed: true,
-        items: 'auto',
-      },
-      {
-        text: '实用',
-        prefix: 'practical',
-        collapsed: true,
-        items: 'auto',
-      }
-    ]
-  },
-]})
+    {
+      text: '从这里开始 ↓',
+      collapsed: false,
+      icon: 'carbon:idea',
+      prefix: 'modpack',
+      items: [
+        'shortcuts',
+        'mods_list',
+        {
+          text: '模组',
+          prefix: 'mods',
+          collapsed: true,
+          items: 'auto'
+        },
+      ],
+    },
+  ]
+})
 
 // 导出所有的 collections
 export default defineCollections([
