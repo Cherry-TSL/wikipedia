@@ -9,7 +9,7 @@ config:
       name: Cherry
       text: Wikipedia
       tagline: 一个胡乱制作的维基百科~
-      image: /Cherry.png
+      image: /cherry.png
 
       actions:
         -
