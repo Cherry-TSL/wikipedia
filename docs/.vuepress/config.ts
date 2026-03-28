@@ -15,7 +15,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 import collections from './collections'
 
 export default defineUserConfig({
-  base: '/',
+  base: '/wikipedia/',
   lang: 'zh-CN',
   title: 'Cherry Wikipedia',
   description: '一个胡乱制作的Wikipedia~',
