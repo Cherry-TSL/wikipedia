@@ -49,7 +49,7 @@ const guideDoc = defineCollection({
         'shortcuts',
         'mods_list',
         {
-          text: '模组',
+          text: '模组配置参考',
           prefix: 'mods',
           collapsed: true,
           items: 'auto'
