@@ -16,6 +16,6 @@ config:
           link: /guide/
         -
           theme: alt
-          text: Github
-          link: https://github.com/Cherry-tsl/wikipedia
+          text: 整合包
+          link: https://modrinth.com/project/qeU3phx7
 ---
