@@ -6,7 +6,7 @@ draft: 'true'
 
 <!-- todo：将前置分离 -->
 
-| 资源名称 |
+| 资源名称（整合包 0.6.12） |
 | --- |
 | Advancements Reloaded (AdvancementInfo) |
 | Animatica |
