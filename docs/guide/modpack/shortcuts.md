@@ -17,10 +17,10 @@ draft: 'true'
 
 | 模组 | 功能 | 键位 |
 | --- | --- | --- |
-| Toggle Nametags | 隐藏玩家头上的名牌（Toggle Nametags） | `-` |
+| Toggle Nametags | 隐藏生物头上的名牌（切换） | `-` |
 | - | Toggle Boss Bar | `]` → 未指定 |
 | - | Show your own nametag | `M` → 未指定 |
-| 更好的 Tab 列表 | 切换模组 | 未指定 |
+| 更好的 Tab 列表 | 打开模组设置 | 未指定 |
 | - | 向右滚动 | 右方向键 |
 | - | 向左滚动 | 左方向键 |
 | - | 打开配置 | 未指定 |
