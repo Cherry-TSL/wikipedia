@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "description": "一个胡乱制作的Wikipedia~",
-  "packageManager": "pnpm@10.33.0+sha512.10568bb4a6afb58c9eb3630da90cc9516417abebd3fabbe6739f0ae795728da1491e9db5a544c76ad8eb7570f5c4bb3d6c637b2cb41bfdcdb47fa823c8649319",
+  "packageManager": "pnpm@11.0.9+sha512.34ce82e6780233cf9cad8685029a8f81d2e06196c5a9bad98879f7424940c6817c4e4524fb7d38b8553ceed48b9758b8ebaf1abd3600c232c4c8cf7366086f38",
   "author": "ayuyoiM <137207191+ayuyoiM@users.noreply.github.com>",
   "license": "CC-BY-NC-4.0",
   "scripts": {
@@ -14,12 +14,12 @@
     "vp-update": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "@vuepress/bundler-vite": "2.0.0-rc.29",
     "http-server": "^14.1.1",
-    "typescript": "^5.9.3",
-    "vue": "^3.5.31",
-    "vuepress": "2.0.0-rc.26",
-    "vuepress-theme-plume": "1.0.0-rc.192"
+    "typescript": "^6.0.3",
+    "vue": "^3.5.34",
+    "vuepress": "2.0.0-rc.29",
+    "vuepress-theme-plume": "1.0.0-rc.200"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

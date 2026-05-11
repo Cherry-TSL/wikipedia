@@ -46,6 +46,7 @@ const guideDoc = defineCollection({
       icon: 'carbon:idea',
       prefix: 'modpack',
       items: [
+        'modpack_minor_modifications',
         'shortcuts',
         'mods_list',
         {
