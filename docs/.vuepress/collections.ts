@@ -47,16 +47,15 @@ const guideDoc = defineCollection({
       prefix: 'modpack',
       items: [
         'modpack_minor_modifications',
-        'shortcuts',
-
-        {
-          text: '模组配置',
-          collapsed: true,
-          icon: 'mynaui:config',
-          prefix: 'mods_config',
-          items: 'auto'
-        },
+        'shortcuts'
       ],
+    },
+    {
+      text: '模组配置',
+      collapsed: true,
+      icon: 'mynaui:config',
+      prefix: 'mods_config',
+      items: 'auto'
     },
   ]
 })

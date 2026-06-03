@@ -1,6 +1,6 @@
 ---
 title: 整合包的小改动
-permalink: /guide/modpack_modifications/
+permalink: /guide/mods_config/modpack_modifications/
 ---
 
 > 于 0.7.0 重构了配置
