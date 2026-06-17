@@ -46,6 +46,7 @@ const guideDoc = defineCollection({
       icon: 'carbon:idea',
       prefix: 'modpack',
       items: [
+        { text: '介绍', link: '/docs/README.md' },
         'modpack_minor_modifications',
         'shortcuts'
       ],
