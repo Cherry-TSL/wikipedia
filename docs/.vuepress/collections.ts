@@ -46,9 +46,16 @@ const guideDoc = defineCollection({
       icon: 'carbon:idea',
       prefix: 'modpack',
       items: [
-        { text: '介绍', link: '/docs/README.md' },
+        '/guide/intro/',
         'modpack_minor_modifications',
-        'shortcuts'
+        'shortcuts',
+        {
+          text: '废案',
+          collapsed: true,
+          link: 'abandoned',
+          prefix: 'abandoned',
+          items: 'auto',
+        },
       ],
     },
     {
@@ -56,7 +63,9 @@ const guideDoc = defineCollection({
       collapsed: true,
       icon: 'mynaui:config',
       prefix: 'mods_config',
-      items: 'auto'
+      items: [
+        '/guide/mods_config/'
+      ]
     },
   ]
 })
